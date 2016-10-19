@@ -66,6 +66,31 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="TestNestora\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestNestora\Form1.Designer.cs" />
+    <Compile Include="TestNestora\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestNestora\Form2.Designer.cs" />
+    <Compile Include="TestNestora\pantalla2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestNestora\pantalla2.Designer.cs" />
+    <Compile Include="TestNestora\pantalla3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestNestora\pantalla3.Designer.cs" />
+    <Compile Include="TestNestora\pantalla4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestNestora\pantalla4.Designer.cs" />
+    <Compile Include="TestNestora\pantalla5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestNestora\pantalla5.Designer.cs" />
+    <Compile Include="TestNestora\Program.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CU5\Crear.resx">
@@ -81,6 +106,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="TestNestora\Form1.resx" />
+    <EmbeddedResource Include="TestNestora\Form2.resx" />
+    <EmbeddedResource Include="TestNestora\pantalla2.resx" />
+    <EmbeddedResource Include="TestNestora\pantalla3.resx" />
+    <EmbeddedResource Include="TestNestora\pantalla4.resx" />
+    <EmbeddedResource Include="TestNestora\pantalla5.resx" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
